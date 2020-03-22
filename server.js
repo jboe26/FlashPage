@@ -16,7 +16,7 @@ app.use(bodyParser.json());
 // DB Config
 const db = require("./config/keys").mongoURI;
 
-mongoose.connect('mongodb://localhost:27017/mern-auth', {useNewUrlParser: true});
+mongoose.connect('mongodb://localhost:27017/flashchat', {useNewUrlParser: true});
 
 // Connect to MongoDB
 // mongoose.connect(process.env.MONGO_URI, {
